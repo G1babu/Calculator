@@ -1,0 +1,58 @@
+body {
+    background-color:hsl(185, 41%, 84%);
+    height: auto;
+}
+/* hsl(186, 14%, 43%) */
+.primary {
+    background-color:white;
+    width:400px;
+    height: 485px;
+    border-radius: 15px;
+    margin: 7% 35% 7% ;
+
+}
+
+
+.secondary {
+    margin-left: 29px;
+}
+
+input {
+    text-align: center;
+    background-color:hsl(183, 100%, 15%);
+    color: white;
+    width:100px;
+    height:50px;
+    margin:0 5px 7px;
+    border-radius: 7px;
+    font-size: 25px;
+    font-family:monospace;
+}
+
+input:hover {
+    background-color:hsl(172, 67%, 45%);
+}
+
+#result {
+    border-radius: 7px;
+    margin:10% 11% 10%;
+    width:300px;
+    height:30px;
+    font-size:20px;
+    font-family: monospace;
+    background-color: white;
+    text-align: left;
+    color:black;
+}
+
+#result:hover{
+    background-color: white;
+    color:black;
+}
+
+
+@media only screen and (max-width:768px) {
+.primary{
+  margin: 23% 10% 10% 23%;
+}
+}
